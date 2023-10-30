@@ -90,7 +90,7 @@ address {
     text-decoration: underline;
 }
 
-.preview__content {
+.preview {
     width: 520px;
     margin-bottom: 246px;
 }
@@ -173,6 +173,9 @@ address {
     vertical-align: top;
     margin-right: 23px;
     width: 362px;
+
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .hot-tours__item:last-child {
@@ -181,12 +184,10 @@ address {
 
 .hot-tours__img {
     display: block;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .hot-tours__content {
     background: #fff;
-    border-radius: 0px 0px 5px 5px;
     color: #303030;
     padding: 33px 16px 26px 22px;
 }
@@ -259,7 +260,9 @@ address {
     margin-right: 21px;
     width: 557px;
     height: 394px;
+    
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .news__item:last-child {
@@ -268,8 +271,8 @@ address {
 
 .news__content {
     position: absolute;
-    top: 252px;
-    padding: 0 30px 10px;
+    bottom: 10px;
+    padding: 0 30px;
 }
 
 .news__date {
@@ -290,6 +293,7 @@ address {
     margin-left: 2px;
     font-size: 16px;
     line-height: 24px;
+    height: 65px;
 }
 
 .paginator {
@@ -382,7 +386,7 @@ address {
     top: 57px;
 }
 
-.socials__list {
+.socials {
     position: absolute;
     top: 50px;
     left: 702px;
