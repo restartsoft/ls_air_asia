@@ -209,6 +209,10 @@ address {
     margin-right: 14px;
 }
 
+.hot-tours__options-item:last-child {
+    margin-right: 0;
+}
+
 .hot-tours__options-icon {
     display: inline-block;
     vertical-align: top;
@@ -367,24 +371,20 @@ address {
     position: relative;
     margin-top: 55px;
     height: 148px;
-}
-
-.footer__line {
-    border-top: 1px solid #fff;
-    opacity: 0.1;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer .logo {
-    top: 47px;
+    top: 46px;
 }
 
 .footer .menu {
-    top: 58px;
+    top: 57px;
 }
 
 .socials__list {
     position: absolute;
-    top: 51px;
+    top: 50px;
     left: 702px;
 }
 
@@ -398,7 +398,7 @@ address {
 }
 
 .footer .contacts {
-    top: 44px;
+    top: 43px;
 }
 
 .contacts__free-call {
