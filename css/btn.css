@@ -1,0 +1,36 @@
+
+.btn {
+    display: block;
+    background: #F5170E;
+    border: 1px solid #F5170E;
+    color: #fff;
+    width: 168px;
+    height: 55px;
+    border-radius: 35px;
+    padding: 17px 39px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #F5170E;
+}
+
+.btn-tours {
+    background: #fff;
+    color: #F5170E;
+    width: 135px;
+    padding: 17px 29px;
+}
+
+.btn-tours:hover {
+    background: #F5170E;
+    color: #fff;
+    width: 135px;
+    padding: 17px 29px;
+}

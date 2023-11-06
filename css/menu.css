@@ -1,0 +1,19 @@
+
+.menu {
+    margin-top: 4px;
+    margin-left: 78px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    font-size: 14px;
+    margin-right: 55px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}

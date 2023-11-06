@@ -1,0 +1,94 @@
+
+.hot-tours {
+    margin-bottom: 127px;
+}
+
+.hot-tours__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 51px;
+}
+
+.hot-tours__title-text {
+    margin-left: 2px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hot-tours__title-icon {
+    margin-top: 6px;
+    margin-left: 13px;
+}
+
+.hot-tours__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1px;
+}
+
+.hot-tours__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 18px);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hot-tours__img {
+    display: block;
+}
+
+.hot-tours__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #fff;
+    color: #303030;
+    padding: 33px 16px 26px 22px;
+}
+
+.hot-tours__subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.hot-tours__options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 6px;
+}
+
+.hot-tours__options-item {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+
+}
+
+.hot-tours__options-item:last-child {
+    margin-right: 0;
+}
+
+.hot-tours__options-icon {
+    margin-right: 10px;
+}
+
+.hot-tours__options-text {
+    color: #666666;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+.hot-tours__text {
+    flex: 1;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+}
+
+.hot-tours__btn-wrapper {
+    margin-left: 2px;
+}

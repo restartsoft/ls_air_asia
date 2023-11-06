@@ -1,1 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("./normalize.css");
+@import url("./global.css");
+@import url("./header.css");
+@import url("./logo.css");
+@import url("./menu.css");
+@import url("./contacts.css");
+@import url("./breadcrumbs.css");
+@import url("./preview.css");
+@import url("./btn.css");
+@import url("./hot-tours.css");
+@import url("./news.css");
+@import url("./paginator.css");
+@import url("./about.css");
+@import url("./services.css");
+@import url("./partners.css");
+@import url("./footer.css");
+@import url("./socials.css");
