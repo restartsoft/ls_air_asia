@@ -4,33 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <div class="wrapper home-page-wrapper">
         <div class="container">
             <header class="header">
-                <a href="/" class="logo">
-                    <img src="./img/logo.png" alt="Logo" class="logo__img">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    <div class="contacts__dropdown-title">График работы</div>
-                </address>
+                <div class="header__column">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="Logo" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="./index.html" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./services.html" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__column header__column-align-right">
+                    <address class="contacts">
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        <div class="contacts__dropdown-title">График работы</div>
+                    </address>
+                </div>
             </header>
             <main class="main">
                 <!--Приветсвенный блок-->
@@ -115,8 +119,7 @@
                 <section class="news">
                     <h2 class="news__title">Новости и акции</h2>
                     <ul class="news__list">
-                        <li class="news__item">
-                            <img src="./img/plain.png" alt="plain" class="news__img">
+                        <li class="news__item" style="background: url(./img/plain.png) 100% no-repeat;">
                             <div class="news__content">
                                 <div class="news__date">
                                     <span class="news__date-month">Декабрь</span>
@@ -126,8 +129,7 @@
                                 <p class="news__descr">Проведи новый год в Тайланде</p>
                             </div>
                         </li>
-                        <li class="news__item">
-                            <img src="./img/Surfer.png" alt="Surfer" class="news__img">
+                        <li class="news__item" style="background: url(./img/Surfer.png) 100% no-repeat;">
                             <div class="news__content">
                                 <div class="news__date">
                                     <span class="news__date-month">Декабрь</span>
@@ -181,50 +183,54 @@
                 </section>
             </main>
             <footer class="footer">
-                <a href="/" class="logo">
-                    <img src="./img/logo.png" alt="Logo" class="logo__img">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="socials">
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/telegram.png" alt="telegram" class="socials__icon">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/vk.png" alt="vk" class="socials__icon">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/f.png" alt="f" class="socials__icon">
-                            </a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" class="socials__link">
-                                <img src="./img/in.png" alt="in" class="socials__icon">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="footer-column">
+                    <a href="/" class="logo">
+                        <img src="./img/logo.png" alt="Logo" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="./index.html" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./services.html" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <address class="contacts">
-                    <div class="contacts__free-call">Бесплатный звонок по России</div>
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                </address>
+                <div class="footer-column footer-column-align-right">
+                    <div class="socials">
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/telegram.png" alt="telegram" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/vk.png" alt="vk" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/f.png" alt="f" class="socials__icon">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <img src="./img/in.png" alt="in" class="socials__icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <address class="contacts">
+                        <div class="contacts__free-call">Бесплатный звонок по России</div>
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    </address>
+                </div>
             </footer>
         </div>
     </div>
