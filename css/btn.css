@@ -14,11 +14,23 @@
     line-height: normal;
     text-transform: uppercase;
     transition: 0.4s;
+    cursor: pointer;
 }
 
-.btn:hover {
+/* .btn:hover {
     background: #fff;
     color: #F5170E;
+} */
+
+.btn-form-grey {
+    background: #8E8E8E;
+    border: 1px solid  #8E8E8E;
+}
+
+.btn-form-grey:hover{
+    background: #2B2B2B;
+    border: 1px solid  #2B2B2B;
+    color: #fff;
 }
 
 .btn-tours {

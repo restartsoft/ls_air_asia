@@ -1,6 +1,6 @@
 
 .menu {
-    margin-top: 4px;
+    margin-top: 10px;
     margin-left: 78px;
 }
 
@@ -16,4 +16,8 @@
 
 .menu__item:last-child {
     margin-right: 0;
+}
+
+.menu__link:hover {
+    color: #DA0100;
 }

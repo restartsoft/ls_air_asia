@@ -3,8 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 38px 0;
+    padding: 34px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-no-border {
+    border-top: none;
 }
 
 .footer-column {
@@ -14,5 +18,4 @@
 
 .footer-column-align-right {
     justify-content: flex-end;
-    padding-top: 4px;
 }

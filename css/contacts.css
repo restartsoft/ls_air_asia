@@ -1,16 +1,28 @@
 
 .contacts {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
     font-style: normal;
+    margin-top: 8px;
+    align-items: flex-end;
 }
 
 .contacts__phone {
     font-size: 26px;
 }
 
-.contacts__dropdown-title {
-    margin-top: -7px;
-    margin-right: 3px;
+.contacts__schedule {
+    margin-top: -9px;
+    margin-right: 2px;
+    position: relative;
+}
+
+.contacts__schedule:hover .dropdown {
+    left: -61px;
+    opacity: 1;
+}
+
+.contacts__schedule-link {
     font-size: 13px;
     text-decoration: underline;
 }

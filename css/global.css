@@ -37,6 +37,11 @@ address {
     text-decoration: none;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 .home-page-wrapper {
     background: url("../img/1.png") center top no-repeat,
                 url("../img/2.png") center bottom 165px no-repeat;
@@ -75,6 +80,15 @@ address {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 52px;
+}
+
+.inner-section-feedback {
+    padding-top: 62px;
+    padding-bottom: 76px;
+}
+
+.inner-section-feedback .inner-section__title {
+    margin-bottom: 57px;
 }
 
 .page-title {

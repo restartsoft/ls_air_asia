@@ -5,6 +5,7 @@
 @import url("./logo.css");
 @import url("./menu.css");
 @import url("./contacts.css");
+@import url("./dropdown.css");
 @import url("./breadcrumbs.css");
 @import url("./preview.css");
 @import url("./btn.css");
@@ -13,6 +14,10 @@
 @import url("./paginator.css");
 @import url("./about.css");
 @import url("./services.css");
+@import url("./feedback.css");
 @import url("./partners.css");
 @import url("./footer.css");
 @import url("./socials.css");
+@import url("./tour-tag.css");
+@import url("./banner.css");
+@import url("./form.css");

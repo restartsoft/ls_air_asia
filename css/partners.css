@@ -12,11 +12,20 @@
     margin-right: 0;
 }
 
+.partners__item:nth-child(4n) .partners__link {
+    justify-content: flex-end;
+}
+
+.partners__item:nth-child(4n + 1) .partners__link {
+    justify-content: flex-start;
+}
+
 .partners__link {
     text-decoration: none;
+    justify-content: center;
     display: flex;
     width: 270px;
-    height: 128px;
+    height: 129px;
     align-items: center;
     filter: grayscale(100%);
     transition: 0.4s;

@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 363px;
+    background: url("../img/couple.png") right 29% bottom no-repeat,
+                url("../img/banner.png") lightgray 50% / cover no-repeat;
+}
+
+.banner__title {
+    width: 50%;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
