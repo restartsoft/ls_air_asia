@@ -42,6 +42,38 @@ address {
     outline-offset: 0;
 }
 
+.welcome {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url("../img/shades.png") center no-repeat,
+                url("../img/bg.png") lightgray 50% / cover no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__logo {
+    margin-top: 136px;
+}
+
+.central__title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+    margin-bottom: 52px;
+}
+
 .home-page-wrapper {
     background: url("../img/1.png") center top no-repeat,
                 url("../img/2.png") center bottom 165px no-repeat;

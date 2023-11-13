@@ -1,6 +1,7 @@
 
 .btn {
     display: block;
+    text-align: center;
     background: #F5170E;
     border: 1px solid #F5170E;
     color: #fff;
