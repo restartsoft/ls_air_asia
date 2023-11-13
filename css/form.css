@@ -74,8 +74,8 @@
 .form__buttons {
     display: flex;
     justify-content: flex-end;
-    margin-top: 29px;
-    margin-bottom: 20px;
+    padding: 20px 0;
+    margin-top: 9px;
 }
 
 .form__button {

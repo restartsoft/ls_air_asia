@@ -60,6 +60,40 @@ address {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    animation: heartBeat;
+    animation-duration: 1.4s;
+
+    /* opacity: 0; */
+    /* animation: zoom 1.4s forwards; */
+}
+
+@keyframes zoom {
+    
+    0% {
+        transform: scale(.6);
+    }
+
+    20% {
+        transform: scale(1.2);
+    }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .central__logo {
@@ -70,7 +104,7 @@ address {
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
-    margin-top: -10px;
+    margin-top: -4px;
     margin-bottom: 52px;
 }
 
