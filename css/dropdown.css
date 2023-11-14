@@ -33,10 +33,12 @@
 .dropdown__period {
     margin-bottom: 1px;
     font-weight: 700;
+    position: relative;
 }
 
 .dropdown__period-lunch {
     font-size: 0;
+    position: relative;
 }
 
 .dropdown__period-lunch .dropdown__period-time {
